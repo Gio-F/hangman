@@ -79,10 +79,12 @@ class Hangman:
         """ Method that will print a message when the word is correctly guessed"""
         if self.word_to_find == self.correctly_guessed_letters:
             print (f"You found the word: {self.word_to_find} in {self.turn_count} turns with {self.error_count} errors!")
-
+            print ("Type python main.py to start again")
+            
     def game_over(self):
         """ Method that will print a message when all lives have been used"""
         print("game over...")
+        print ("Type python main.py to start again")
 
     def start_game(self):
          """ Method that will start the game when called, and runs it by
