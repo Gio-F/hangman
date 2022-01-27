@@ -1,1 +1,1 @@
-import Hangman
+from utils.game.py import Hangman
